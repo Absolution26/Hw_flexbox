@@ -1,0 +1,122 @@
+@import url(../hw1/nullstyle.css);
+
+body{
+    background-color:rgb(253,222,126);
+}
+.container {
+    width:1200px;
+    margin:0 auto;
+    height:100%;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-pack:distribute;
+        justify-content:space-around;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
+}
+.block {
+    width:360px;
+    height:440px;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+        -ms-flex-direction:column;
+            flex-direction:column;
+    -webkit-box-pack:center;
+        -ms-flex-pack:center;
+            justify-content:center;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
+    background-color:white;
+}
+.block:nth-child(2){
+    height:500px;
+}
+.block:nth-child(2) .block__price{
+    margin:0 0 20px 0;
+}
+.block__price {
+color: #02995b;
+font-family: 'Miso Regular';
+font-size: 70px;
+font-weight: 700;
+line-height: 24px;
+text-align: center;
+letter-spacing: 1.75px;
+}
+
+
+.block__smoke {
+    width: 49px;
+    height: 46px;
+    margin: 23px 12px 11px 0;
+}
+.block__smoke:nth-child(2){
+    margin: 23px 12px 11px 0;
+}
+
+.background{
+    width:135px;
+    height:77px;
+    background-image: url(../hw1/img/bronze_cup.png);   
+    position:relative;
+    margin-bottom:38px;
+}
+
+.block__bean {
+    position:absolute;
+    top:22%;
+    left:33%;
+    
+}
+.background2{
+    width:135px;
+    height:77px;
+    background-image: url(../hw1/img/gold_cup.png);   
+    position:relative;
+    margin-bottom:47px;
+}
+.background3{
+    width:135px;
+    height:77px;
+    background-image: url(../hw1/img/silver_cup.png);   
+    position:relative;
+    margin-bottom:38px;
+}
+.block__title {
+    color: #333333;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Miso Regular';
+    font-size: 56px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+}
+.block__subtitle {
+    margin:38px 0 0 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    line-height: 26px;
+    font-size: 18px;
+    text-align:center;
+    
+}
+
+@font-face {
+    font-family: 'Miso Regular';
+    src: url('Miso.eot');
+    src: url('Miso.eot?#iefix') format('embedded-opentype'),
+    url('Miso.woff') format('woff'),
+    url('../hw1/fonts/Miso.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
