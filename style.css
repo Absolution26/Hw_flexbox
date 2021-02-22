@@ -63,7 +63,7 @@ letter-spacing: 1.75px;
 .background{
     width:135px;
     height:77px;
-    background-image: url(../hw1/img/bronze_cup.png);   
+    background-image: url(img/bronze_cup.png);   
     position:relative;
     margin-bottom:38px;
 }
@@ -77,14 +77,14 @@ letter-spacing: 1.75px;
 .background2{
     width:135px;
     height:77px;
-    background-image: url(../hw1/img/gold_cup.png);   
+    background-image: url(img/gold_cup.png);   
     position:relative;
     margin-bottom:47px;
 }
 .background3{
     width:135px;
     height:77px;
-    background-image: url(../hw1/img/silver_cup.png);   
+    background-image: url(img/silver_cup.png);   
     position:relative;
     margin-bottom:38px;
 }
@@ -116,7 +116,7 @@ letter-spacing: 1.75px;
     src: url('Miso.eot');
     src: url('Miso.eot?#iefix') format('embedded-opentype'),
     url('Miso.woff') format('woff'),
-    url('../hw1/fonts/Miso.ttf') format('truetype');
+    url('fonts/Miso.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     }
